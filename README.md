@@ -6,6 +6,7 @@ Walks through a NxN chessboard, clockwise, painting each cell with a color, alte
 The only parameter received is N (number of columns/rows).
 
 The logic to walk through the chessboard is:
+
 1. Go left until the edge of the chessboard is reached, or until the next cell is already painted.
 2. Go down until the edge of the chessboard is reached, or until the next cell is already painted.
 3. Go left until the edge of the chessboard is reached, or until the next cell is already painted.
